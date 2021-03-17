@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Arvo", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Satisfy", cursive;
+  font-size: 5.625rem;
+  color: #529471;
+  line-height: 3.5;
+}
+
+h2 {
+  font-family: "Blinker", sans-serif;
+  font-size: 2.5rem;
+  color: #529471;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Blinker", sans-serif;
+  color: #35635b;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  font-weight: bolder;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #35635b;
+  font-family: "Oxygen", sans-serif;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  background-color: #e5f1e3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-sun {
+  position: absolute;
+  left: 90px;
+  top: -20px;
+  width: 320px;
+}
+
+.bottom-cloud {
+  width: 200px;
+  position: absolute;
+  bottom: 150px;
+  right: 150px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-photo {
+  width: 250px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.resume-link {
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+.resume-link:hover {
+  color: #a3cd9e;
+}
+
+.skills-row {
+  width: 50%;
+  margin: 60px auto 60px auto;
+  text-align: left;
+}
+
+.budget-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.socialmedia-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.monitor-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.languages-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.music-message {
+  margin-bottom: 40px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #529471;
+  padding: 50px 0 20px;
+}
+
+.BUTTON_CONTACT {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #529471;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0;
+}
+
+.BUTTON_CONTACT:hover {
+  background: #a3cd9e;
+  border: solid #a3cd9e 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
