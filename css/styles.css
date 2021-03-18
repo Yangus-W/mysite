@@ -139,7 +139,8 @@ a:hover {
   padding: 50px 0 20px;
 }
 
-.BUTTON_CONTACT {
+.BUTTON_CONTACT:link,
+.BUTTON_CONTACT:visited {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -154,9 +155,11 @@ a:hover {
   cursor: pointer;
   text-align: center;
   margin-top: 0;
+  transition: background-color 0.2s;
 }
 
-.BUTTON_CONTACT:hover {
+.BUTTON_CONTACT:hover,
+.BUTTON_CONTACT:active {
   background: #a3cd9e;
   border: solid #a3cd9e 0;
   -webkit-border-radius: 20px;
